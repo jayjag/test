@@ -11,7 +11,7 @@ function submitdata() {
 			textVisible: true
 		});
     }, 1);
-	window.setTimeout( switchwindow, 3000 );
+	window.setTimeout( switchwindow, 2000 );
 }
 
 function switchwindow() {
@@ -24,7 +24,6 @@ function switchwindow() {
         $.mobile.loading("hide");
     }, 1);
 	$("body").removeClass('ui-disabled');
-	alert(empid+empname+empemail);
 }
 
 $( document ).ready(function() {
